@@ -1,27 +1,21 @@
-.gradle
-**/build/
-!src/**/build/
-run/
+# Gradle 运行时缓存与本地配置
+.gradle/
+build/
+local.properties
+
+# 开发工具 (IntelliJ IDEA) 临时文件
+.idea/
+*.iws
+*.iml
+*.ipr
 out/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# 运行测试时的游戏客户端/服务端数据
+run/
+runClient/
+runServer/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-# IDEA config
-.idea
-
+# 编译日志与系统垃圾
+*.log
+.DS_Store
+Thumbs.db

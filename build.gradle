@@ -113,6 +113,11 @@ dependencies {
         testImplementation 'org.junit.jupiter:junit-jupiter:6.0.3'
         testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     }
+    modImplementation "curse.maven:projecte-226410:2702991"
+
+    modImplementation "curse.maven:ingame-info-xml-225604:2489566"
+
+    modImplementation "curse.maven:lunatriuscore-225605:2489549"
 }
 
 apply from: 'gradle/scripts/dependencies.gradle'
