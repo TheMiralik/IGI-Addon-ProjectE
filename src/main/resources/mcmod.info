@@ -1,0 +1,16 @@
+[
+{
+  "modid": "igi|projecte",
+  "name": "IGI-Addon-ProjectE",
+  "description": "An InGameInfo XML addon to display ProjectE EMC information.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Miralik"],
+  "credits": "Created by Miralik",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["ingameinfo", "projecte"]
+}
+]
